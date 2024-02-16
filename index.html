@@ -72,31 +72,34 @@
 
 		<!-- main  -->
 		<section class="bg-gray-100" id="main">
-			<div class="flex justify-between md:items-center container mx-auto p-4 md:flex-row flex-col">
-				<div class="md:w-1/2 font-[900] text-[32px]">
-					<h1>Explore itineraries based on what you like to see and things to do...</h1>
-					<form class="mt-10">
-						<label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-						<div class="relative">
-							<div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-								<svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-								</svg>
+			<div class="container mx-auto">
+				<div class="md:mx-[8rem] p-4 md:flex-row flex-col flex justify-between md:items-center">
+					<div class="md:w-1/2 font-[900] text-[32px]">
+						<h1>Explore itineraries based on what you like to see and things to do...</h1>
+						<form class="mt-10">
+							<label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+							<div class="relative">
+								<div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+									<svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+									</svg>
+								</div>
+								<input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm rounded-lg border-none" placeholder="Search itineraries & more..." required />
 							</div>
-							<input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm rounded-lg border-none" placeholder="Search itineraries & more..." required />
+						</form>
+						<p class="text-sm font-semibold mt-10 underline underline-offset-8">AS RECOMMENDED</p>
+						<div class="flex overflow-auto h-10 mt-5">
+							<img class="mx-6 grayscale hover:filter-none" src="./assects/img/keep-logo.svg" alt="" />
+							<img class="mx-6 grayscale hover:filter-none" src="./assects/img/tripadvisor.svg" alt="" />
+							<img class="mx-6 grayscale hover:filter-none" src="./assects/img/regular_en.svg" alt="" />
+							<img class="mx-6 grayscale hover:filter-none" src="./assects/img/trustpilot.svg" alt="" />
 						</div>
-					</form>
-					<p class="text-sm font-semibold mt-10 underline underline-offset-8">AS RECOMMENDED</p>
-					<div class="flex overflow-auto h-10 mt-5">
-						<img class="mx-6 grayscale hover:filter-none" src="./assects/img/keep-logo.svg" alt="" />
-						<img class="mx-6 grayscale hover:filter-none" src="./assects/img/tripadvisor.svg" alt="" />
-						<img class="mx-6 grayscale hover:filter-none" src="./assects/img/regular_en.svg" alt="" />
-						<img class="mx-6 grayscale hover:filter-none" src="./assects/img/trustpilot.svg" alt="" />
 					</div>
+					<div class="md:w-1/2 mt-12 md:mt-0 md:ml-5"><img class="rounded-md" src="./assects/img/mount-everest-base-camp-trek.webp" alt="" /></div>
 				</div>
-				<div class="md:w-1/2 mt-12 md:mt-0 md:ml-5"><img class="rounded-md" src="./assects/img/mount-everest-base-camp-trek.webp" alt="" /></div>
 			</div>
 		</section>
+
 		<div class="bg-gray-100 mt-10">
 			<div class="flex items-center container mx-auto">
 				<img class="w-20 mr-5" src="./assects/img/logo.png" alt="" />
@@ -110,381 +113,385 @@
 
 		<!-- best seller treks  -->
 		<section id="treaks" class="container mx-auto mt-10 p-2">
-			<!-- heading  -->
-			<div class="mb-2">
-				<h1 class="font-extrabold text-gray-700 flex">
-					<svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-						<path
-							d="M15.133 10.632v-1.8a5.406 5.406 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C4.867 13.018 3 13.614 3 14.807 3 15.4 3 16 3.538 16h12.924C17 16 17 15.4 17 14.807c0-1.193-1.867-1.789-1.867-4.175ZM4 4a1 1 0 0 1-.707-.293l-1-1a1 1 0 0 1 1.414-1.414l1 1A1 1 0 0 1 4 4ZM2 8H1a1 1 0 0 1 0-2h1a1 1 0 1 1 0 2Zm14-4a1 1 0 0 1-.707-1.707l1-1a1 1 0 1 1 1.414 1.414l-1 1A1 1 0 0 1 16 4Zm3 4h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM6.823 17a3.453 3.453 0 0 0 6.354 0H6.823Z"
-						/>
-					</svg>
-					TRAVELLERS' CHOICE
-				</h1>
-				<p class="text-[2.5rem] font-extrabold text-gray-700">Best seller treks</p>
-			</div>
-			<!-- end heading  -->
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-				<!-- card  -->
-				<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
-					<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
-					<img class="h-auto max-w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
-					<div class="p-5">
-						<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
-						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
-						<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-						<div class="flex justify-between mt-6">
-							<p class="text-xl font-extrabold text-gray-800">USD $200</p>
-							<div class="flex items-center">
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+			<div class="md:mx-[6rem]">
+				<!-- heading  -->
+				<div class="mb-2">
+					<h1 class="font-extrabold text-gray-700 flex">
+						<svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M15.133 10.632v-1.8a5.406 5.406 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C4.867 13.018 3 13.614 3 14.807 3 15.4 3 16 3.538 16h12.924C17 16 17 15.4 17 14.807c0-1.193-1.867-1.789-1.867-4.175ZM4 4a1 1 0 0 1-.707-.293l-1-1a1 1 0 0 1 1.414-1.414l1 1A1 1 0 0 1 4 4ZM2 8H1a1 1 0 0 1 0-2h1a1 1 0 1 1 0 2Zm14-4a1 1 0 0 1-.707-1.707l1-1a1 1 0 1 1 1.414 1.414l-1 1A1 1 0 0 1 16 4Zm3 4h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM6.823 17a3.453 3.453 0 0 0 6.354 0H6.823Z"
+							/>
+						</svg>
+						TRAVELLERS' CHOICE
+					</h1>
+					<p class="text-[2.5rem] font-extrabold text-gray-700">Best seller treks</p>
+				</div>
+				<!-- end heading  -->
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+					<!-- card  -->
+					<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
+						<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
+						<img class="h-[22rem] w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
+						<div class="p-5">
+							<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
+							<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+							<div class="flex justify-between mt-6">
+								<p class="text-xl font-extrabold text-gray-800">USD $200</p>
+								<div class="flex items-center">
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- end card  -->
-				<!-- card  -->
-				<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
-					<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
-					<img class="h-auto max-w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
-					<div class="p-5">
-						<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
-						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
-						<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-						<div class="flex justify-between mt-6">
-							<p class="text-xl font-extrabold text-gray-800">USD $200</p>
-							<div class="flex items-center">
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+					<!-- end card  -->
+					<!-- card  -->
+					<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
+						<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
+						<img class="h-[22rem] w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
+						<div class="p-5">
+							<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
+							<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+							<div class="flex justify-between mt-6">
+								<p class="text-xl font-extrabold text-gray-800">USD $200</p>
+								<div class="flex items-center">
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- end card  -->
-				<!-- card  -->
-				<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
-					<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
-					<img class="h-auto max-w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
-					<div class="p-5">
-						<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
-						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
-						<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-						<div class="flex justify-between mt-6">
-							<p class="text-xl font-extrabold text-gray-800">USD $200</p>
-							<div class="flex items-center">
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+					<!-- end card  -->
+					<!-- card  -->
+					<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
+						<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
+						<img class="h-[22rem] w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
+						<div class="p-5">
+							<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
+							<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+							<div class="flex justify-between mt-6">
+								<p class="text-xl font-extrabold text-gray-800">USD $200</p>
+								<div class="flex items-center">
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- end card  -->
-				<!-- card  -->
-				<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
-					<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
-					<img class="h-auto max-w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
-					<div class="p-5">
-						<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
-						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
-						<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-						<div class="flex justify-between mt-6">
-							<p class="text-xl font-extrabold text-gray-800">USD $200</p>
-							<div class="flex items-center">
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+					<!-- end card  -->
+					<!-- card  -->
+					<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
+						<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
+						<img class="h-[22rem] -w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
+						<div class="p-5">
+							<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
+							<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+							<div class="flex justify-between mt-6">
+								<p class="text-xl font-extrabold text-gray-800">USD $200</p>
+								<div class="flex items-center">
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- end card  -->
-				<!-- card  -->
-				<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
-					<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
-					<img class="h-auto max-w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
-					<div class="p-5">
-						<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
-						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
-						<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-						<div class="flex justify-between mt-6">
-							<p class="text-xl font-extrabold text-gray-800">USD $200</p>
-							<div class="flex items-center">
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-									<path
-										d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-									/>
-								</svg>
-								<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+					<!-- end card  -->
+					<!-- card  -->
+					<div class="bg-white border border-gray-200 rounded-lg shadow relative hover:scale-105 duration-500 ease-in-out">
+						<p class="bg-gray-200 font-semibold rounded-md px-4 py-1 absolute right-2 top-2">Best price</p>
+						<img class="h-[22rem] w-full rounded-lg" src="./assects/img/langtang-valley-trekking.webp" alt="" />
+						<div class="p-5">
+							<p class="text-sm text-gray-500">Trip Duration: 10 Days</p>
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Langtang Valley Trek</h5>
+							<p class="mb-2 font-normal text-gray-500">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+							<div class="flex justify-between mt-6">
+								<p class="text-xl font-extrabold text-gray-800">USD $200</p>
+								<div class="flex items-center">
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+										<path
+											d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+										/>
+									</svg>
+									<p class="text-sm ml-2 text-gray-400">(20 reviews)</p>
+								</div>
 							</div>
 						</div>
 					</div>
+					<!-- end card  -->
 				</div>
-				<!-- end card  -->
 			</div>
 		</section>
 
 		<!-- treks  -->
 		<section id="treaks" class="bg-blue-200 py-6 mt-10">
 			<div class="container mx-auto p-2">
-				<!-- heading  -->
-				<div class="mb-2 text-white">
-					<h1 class="font-extrabold flex">
-						<svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-							<path
-								d="M15.133 10.632v-1.8a5.406 5.406 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C4.867 13.018 3 13.614 3 14.807 3 15.4 3 16 3.538 16h12.924C17 16 17 15.4 17 14.807c0-1.193-1.867-1.789-1.867-4.175ZM4 4a1 1 0 0 1-.707-.293l-1-1a1 1 0 0 1 1.414-1.414l1 1A1 1 0 0 1 4 4ZM2 8H1a1 1 0 0 1 0-2h1a1 1 0 1 1 0 2Zm14-4a1 1 0 0 1-.707-1.707l1-1a1 1 0 1 1 1.414 1.414l-1 1A1 1 0 0 1 16 4Zm3 4h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM6.823 17a3.453 3.453 0 0 0 6.354 0H6.823Z"
-							/>
-						</svg>
-						Our FAQ's
-					</h1>
-					<p class="text-[2.5rem] font-extrabold">Things to know</p>
-				</div>
-				<!-- end heading  -->
-				<div class="flex flex-col md:flex-row justify-between items-center p-4">
-					<div class="md:w-1/2">
-						<div class="text-gray-700">
-							<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-5" id="faq">
-								<h1 class="font-bold cursor-pointer inline-flex items-center">
-									I’m interested in trekking. What package would you recommend?
-									<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-									</svg>
-								</h1>
-								<p class="font-medium mt-3 hidden">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil expedita
-									a laborum omnis quia officiis!
-								</p>
+				<div class="md:mx-[6rem]">
+					<!-- heading  -->
+					<div class="mb-2 text-white">
+						<h1 class="font-extrabold flex">
+							<svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									d="M15.133 10.632v-1.8a5.406 5.406 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C4.867 13.018 3 13.614 3 14.807 3 15.4 3 16 3.538 16h12.924C17 16 17 15.4 17 14.807c0-1.193-1.867-1.789-1.867-4.175ZM4 4a1 1 0 0 1-.707-.293l-1-1a1 1 0 0 1 1.414-1.414l1 1A1 1 0 0 1 4 4ZM2 8H1a1 1 0 0 1 0-2h1a1 1 0 1 1 0 2Zm14-4a1 1 0 0 1-.707-1.707l1-1a1 1 0 1 1 1.414 1.414l-1 1A1 1 0 0 1 16 4Zm3 4h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM6.823 17a3.453 3.453 0 0 0 6.354 0H6.823Z"
+								/>
+							</svg>
+							Our FAQ's
+						</h1>
+						<p class="text-[2.5rem] font-extrabold">Things to know</p>
+					</div>
+					<!-- end heading  -->
+					<div class="flex flex-col md:flex-row justify-between items-center p-4">
+						<div class="md:w-1/2">
+							<div class="text-gray-700">
+								<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-5" id="faq">
+									<h1 class="font-bold cursor-pointer inline-flex items-center">
+										I’m interested in trekking. What package would you recommend?
+										<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+											<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+										</svg>
+									</h1>
+									<p class="font-medium mt-3 hidden">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil
+										expedita a laborum omnis quia officiis!
+									</p>
+								</div>
+							</div>
+							<div class="text-gray-700">
+								<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
+									<h1 class="font-bold cursor-pointer inline-flex items-center">
+										I’m interested in trekking. What package would you recommend?
+										<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+											<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+										</svg>
+									</h1>
+									<p class="font-medium mt-3 hidden">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil
+										expedita a laborum omnis quia officiis!
+									</p>
+								</div>
+							</div>
+							<div class="text-gray-700">
+								<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
+									<h1 class="font-bold cursor-pointer inline-flex items-center">
+										I’m interested in trekking. What package would you recommend?
+										<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+											<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+										</svg>
+									</h1>
+									<p class="font-medium mt-3 hidden">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil
+										expedita a laborum omnis quia officiis!
+									</p>
+								</div>
+							</div>
+							<div class="text-gray-700">
+								<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
+									<h1 class="font-bold cursor-pointer inline-flex items-center">
+										I’m interested in trekking. What package would you recommend?
+										<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+											<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+										</svg>
+									</h1>
+									<p class="font-medium mt-3 hidden">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil
+										expedita a laborum omnis quia officiis!
+									</p>
+								</div>
+							</div>
+							<div class="text-gray-700">
+								<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
+									<h1 class="font-bold cursor-pointer inline-flex items-center">
+										I’m interested in trekking. What package would you recommend?
+										<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+											<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+										</svg>
+									</h1>
+									<p class="font-medium mt-3 hidden">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil
+										expedita a laborum omnis quia officiis!
+									</p>
+								</div>
+							</div>
+							<div class="text-gray-700">
+								<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
+									<h1 class="font-bold cursor-pointer inline-flex items-center">
+										I’m interested in trekking. What package would you recommend?
+										<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+											<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+										</svg>
+									</h1>
+									<p class="font-medium mt-3 hidden">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil
+										expedita a laborum omnis quia officiis!
+									</p>
+								</div>
 							</div>
 						</div>
-						<div class="text-gray-700">
-							<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
-								<h1 class="font-bold cursor-pointer inline-flex items-center">
-									I’m interested in trekking. What package would you recommend?
-									<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-									</svg>
-								</h1>
-								<p class="font-medium mt-3 hidden">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil expedita
-									a laborum omnis quia officiis!
-								</p>
-							</div>
-						</div>
-						<div class="text-gray-700">
-							<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
-								<h1 class="font-bold cursor-pointer inline-flex items-center">
-									I’m interested in trekking. What package would you recommend?
-									<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-									</svg>
-								</h1>
-								<p class="font-medium mt-3 hidden">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil expedita
-									a laborum omnis quia officiis!
-								</p>
-							</div>
-						</div>
-						<div class="text-gray-700">
-							<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
-								<h1 class="font-bold cursor-pointer inline-flex items-center">
-									I’m interested in trekking. What package would you recommend?
-									<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-									</svg>
-								</h1>
-								<p class="font-medium mt-3 hidden">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil expedita
-									a laborum omnis quia officiis!
-								</p>
-							</div>
-						</div>
-						<div class="text-gray-700">
-							<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
-								<h1 class="font-bold cursor-pointer inline-flex items-center">
-									I’m interested in trekking. What package would you recommend?
-									<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-									</svg>
-								</h1>
-								<p class="font-medium mt-3 hidden">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil expedita
-									a laborum omnis quia officiis!
-								</p>
-							</div>
-						</div>
-						<div class="text-gray-700">
-							<div class="inline-block py-1 px-4 bg-gray-200 rounded-lg mt-[3rem]" id="faq">
-								<h1 class="font-bold cursor-pointer inline-flex items-center">
-									I’m interested in trekking. What package would you recommend?
-									<svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-									</svg>
-								</h1>
-								<p class="font-medium mt-3 hidden">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita a accusamus. Quia, iste. Eum aut voluptatibus assumenda eaque ea itaque excepturi, obcaecati nihil expedita
-									a laborum omnis quia officiis!
-								</p>
-							</div>
+						<div class="md:w-1/2 md:ml-4 mt-4 md:mt-0">
+							<img src="./assects/img/getting-the-band-back-together-1705839957.avif" class="rounded-lg" alt="" />
 						</div>
 					</div>
-					<div class="md:w-1/2 md:ml-4 mt-4 md:mt-0">
-						<img src="./assects/img/getting-the-band-back-together-1705839957.avif" class="rounded-lg" alt="" />
+					<!-- title  -->
+					<div class="mb-6 text-white mt-12 text-center">
+						<h1 class="md:text-[2rem] font-extrabold">Winner 2012 - 2023 Trip Advisor Certificate of Excellence</h1>
+						<p class="md:text-[1rem] text-xs font-extrabold">Carrying on a Legacy - Our badge of excellence</p>
 					</div>
-				</div>
-				<!-- title  -->
-				<div class="mb-6 text-white mt-12 text-center">
-					<h1 class="md:text-[2rem] font-extrabold">Winner 2012 - 2023 Trip Advisor Certificate of Excellence</h1>
-					<p class="md:text-[1rem] text-xs font-extrabold">Carrying on a Legacy - Our badge of excellence</p>
-				</div>
-				<!-- end title  -->
-				<!-- carosel  -->
-				<div id="default-carousel" class="relative w-full" data-carousel="slide">
-					<!-- Carousel wrapper -->
-					<div class="relative h-[6rem] md:h-[16rem] p-2 overflow-hidden rounded-lg">
-						<!-- Item 1 -->
-						<div class="hidden duration-700 ease-in-out" data-carousel-item>
-							<div class="grid grid-cols-4 gap-2">
-								<div>
-									<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
-								</div>
-								<div>
-									<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
-								</div>
-								<div>
-									<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
-								</div>
-								<div>
-									<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+					<!-- end title  -->
+					<!-- carosel  -->
+					<div id="default-carousel" class="relative w-full" data-carousel="slide">
+						<!-- Carousel wrapper -->
+						<div class="relative h-[6rem] md:h-[16rem] p-2 overflow-hidden rounded-lg">
+							<!-- Item 1 -->
+							<div class="hidden duration-700 ease-in-out" data-carousel-item>
+								<div class="grid grid-cols-4 gap-2">
+									<div>
+										<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+									</div>
+									<div>
+										<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+									</div>
+									<div>
+										<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+									</div>
+									<div>
+										<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+									</div>
 								</div>
 							</div>
-						</div>
-						<!-- Item 2 -->
-						<div class="hidden duration-700 ease-in-out" data-carousel-item>
-							<div class="grid grid-cols-4 gap-2">
-								<div>
-									<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
-								</div>
-								<div>
-									<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
-								</div>
-								<div>
-									<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
-								</div>
-								<div>
-									<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+							<!-- Item 2 -->
+							<div class="hidden duration-700 ease-in-out" data-carousel-item>
+								<div class="grid grid-cols-4 gap-2">
+									<div>
+										<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+									</div>
+									<div>
+										<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+									</div>
+									<div>
+										<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+									</div>
+									<div>
+										<img src="./assects/img/award.avif" class="w-[15rem] h-[6rem] md:h-[16rem] rounded-lg" alt="..." />
+									</div>
 								</div>
 							</div>
 						</div>
@@ -498,48 +505,50 @@
 		<!-- about  -->
 		<section id="about" class="mt-10 p-4 bg-custom-image bg-cover bg-no-repeat">
 			<div class="container mx-auto">
-				<!-- heading  -->
-				<div class="mb-2">
-					<h1 class="font-extrabold text-gray-700 flex">
-						<svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-							<path
-								d="M15.133 10.632v-1.8a5.406 5.406 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C4.867 13.018 3 13.614 3 14.807 3 15.4 3 16 3.538 16h12.924C17 16 17 15.4 17 14.807c0-1.193-1.867-1.789-1.867-4.175ZM4 4a1 1 0 0 1-.707-.293l-1-1a1 1 0 0 1 1.414-1.414l1 1A1 1 0 0 1 4 4ZM2 8H1a1 1 0 0 1 0-2h1a1 1 0 1 1 0 2Zm14-4a1 1 0 0 1-.707-1.707l1-1a1 1 0 1 1 1.414 1.414l-1 1A1 1 0 0 1 16 4Zm3 4h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM6.823 17a3.453 3.453 0 0 0 6.354 0H6.823Z"
-							/>
-						</svg>
-						About Us
-					</h1>
-					<p class="text-[2.5rem] font-extrabold text-gray-700">What we offer's</p>
-				</div>
-				<!-- end heading  -->
-				<div class="md:flex justify-between items-center">
-					<div class="md:w-1/2">
-						<h1 class="font-extrabold text-2xl text-gray-700 mb-2">Unleash the Adventure</h1>
-						<p class="text-md text-gray-700">
-							Everyone is an explorer at heart. You just need to get out there to realize it. Our treks are designed for anyone who is a mountain enthusiast, despite prior experience. Likewise, the
-							tours we provide are accessible to everyone, requiring minimal effort. We help you bring out your inner traveler. Discover the world and yourself!
-						</p>
+				<div class="md:mx-[6rem]">
+					<!-- heading  -->
+					<div class="mb-2">
+						<h1 class="font-extrabold text-gray-700 flex">
+							<svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									d="M15.133 10.632v-1.8a5.406 5.406 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C4.867 13.018 3 13.614 3 14.807 3 15.4 3 16 3.538 16h12.924C17 16 17 15.4 17 14.807c0-1.193-1.867-1.789-1.867-4.175ZM4 4a1 1 0 0 1-.707-.293l-1-1a1 1 0 0 1 1.414-1.414l1 1A1 1 0 0 1 4 4ZM2 8H1a1 1 0 0 1 0-2h1a1 1 0 1 1 0 2Zm14-4a1 1 0 0 1-.707-1.707l1-1a1 1 0 1 1 1.414 1.414l-1 1A1 1 0 0 1 16 4Zm3 4h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM6.823 17a3.453 3.453 0 0 0 6.354 0H6.823Z"
+								/>
+							</svg>
+							About Us
+						</h1>
+						<p class="text-[2.5rem] font-extrabold text-gray-700">What we offer's</p>
 					</div>
-					<div class="md:w-1/2 mt-10 md:mt-0">
-						<div class="grid grid-cols-2 gap-3">
-							<div class="flex flex-col justify-center items-center">
-								<img class="w-[10rem] mb-4 rounded-lg" src="./assects/img/peak-climbing-1.svg" alt="" />
-								<h1 class="text-center font-extrabold text-2xl text-gray-700 mb-2">TREKKING IN NEPAL</h1>
-								<p class="text-center text-md text-gray-700">Trekking and Hiking Adventures in Remote Nepalese Terrain</p>
-							</div>
-							<div class="flex flex-col justify-center items-center">
-								<img class="w-[10rem] mb-4 rounded-lg" src="./assects/img/tours-in-nepal-1.svg" alt="" />
-								<h1 class="text-center font-extrabold text-2xl text-gray-700 mb-2">TREKKING IN NEPAL</h1>
-								<p class="text-center text-md text-gray-700">Trekking and Hiking Adventures in Remote Nepalese Terrain</p>
-							</div>
-							<div class="flex flex-col justify-center items-center">
-								<img class="w-[10rem] mb-4 rounded-lg" src="./assects/img/trekking-in-nepal-1.svg" alt="" />
-								<h1 class="text-center font-extrabold text-2xl text-gray-700 mb-2">TREKKING IN NEPAL</h1>
-								<p class="text-center text-md text-gray-700">Trekking and Hiking Adventures in Remote Nepalese Terrain</p>
-							</div>
-							<div class="flex flex-col justify-center items-center">
-								<img class="w-[10rem] mb-4 rounded-lg" src="./assects/img/day-activities-1.svg" alt="" />
-								<h1 class="text-center font-extrabold text-2xl text-gray-700 mb-2">TREKKING IN NEPAL</h1>
-								<p class="text-center text-md text-gray-700">Trekking and Hiking Adventures in Remote Nepalese Terrain</p>
+					<!-- end heading  -->
+					<div class="md:flex justify-between items-center">
+						<div class="md:w-1/2">
+							<h1 class="font-extrabold text-2xl text-gray-700 mb-2">Unleash the Adventure</h1>
+							<p class="text-md text-gray-700">
+								Everyone is an explorer at heart. You just need to get out there to realize it. Our treks are designed for anyone who is a mountain enthusiast, despite prior experience. Likewise, the
+								tours we provide are accessible to everyone, requiring minimal effort. We help you bring out your inner traveler. Discover the world and yourself!
+							</p>
+						</div>
+						<div class="md:w-1/2 mt-10 md:mt-0">
+							<div class="grid grid-cols-2 gap-3">
+								<div class="flex flex-col justify-center items-center">
+									<img class="w-[10rem] mb-4 rounded-lg" src="./assects/img/peak-climbing-1.svg" alt="" />
+									<h1 class="text-center font-extrabold text-2xl text-gray-700 mb-2">TREKKING IN NEPAL</h1>
+									<p class="text-center text-md text-gray-700">Trekking and Hiking Adventures in Remote Nepalese Terrain</p>
+								</div>
+								<div class="flex flex-col justify-center items-center">
+									<img class="w-[10rem] mb-4 rounded-lg" src="./assects/img/tours-in-nepal-1.svg" alt="" />
+									<h1 class="text-center font-extrabold text-2xl text-gray-700 mb-2">TREKKING IN NEPAL</h1>
+									<p class="text-center text-md text-gray-700">Trekking and Hiking Adventures in Remote Nepalese Terrain</p>
+								</div>
+								<div class="flex flex-col justify-center items-center">
+									<img class="w-[10rem] mb-4 rounded-lg" src="./assects/img/trekking-in-nepal-1.svg" alt="" />
+									<h1 class="text-center font-extrabold text-2xl text-gray-700 mb-2">TREKKING IN NEPAL</h1>
+									<p class="text-center text-md text-gray-700">Trekking and Hiking Adventures in Remote Nepalese Terrain</p>
+								</div>
+								<div class="flex flex-col justify-center items-center">
+									<img class="w-[10rem] mb-4 rounded-lg" src="./assects/img/day-activities-1.svg" alt="" />
+									<h1 class="text-center font-extrabold text-2xl text-gray-700 mb-2">TREKKING IN NEPAL</h1>
+									<p class="text-center text-md text-gray-700">Trekking and Hiking Adventures in Remote Nepalese Terrain</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -550,38 +559,40 @@
 
 		<!-- pictures  -->
 		<section id="pictures" class="container mx-auto mt-10 p-4">
-			<!-- heading  -->
-			<div class="mb-2">
-				<h1 class="font-extrabold text-gray-700 flex">
-					<svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-						<path
-							d="M15.133 10.632v-1.8a5.406 5.406 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C4.867 13.018 3 13.614 3 14.807 3 15.4 3 16 3.538 16h12.924C17 16 17 15.4 17 14.807c0-1.193-1.867-1.789-1.867-4.175ZM4 4a1 1 0 0 1-.707-.293l-1-1a1 1 0 0 1 1.414-1.414l1 1A1 1 0 0 1 4 4ZM2 8H1a1 1 0 0 1 0-2h1a1 1 0 1 1 0 2Zm14-4a1 1 0 0 1-.707-1.707l1-1a1 1 0 1 1 1.414 1.414l-1 1A1 1 0 0 1 16 4Zm3 4h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM6.823 17a3.453 3.453 0 0 0 6.354 0H6.823Z"
-						/>
-					</svg>
-					Winning the hearts of many, these trips have graciously turned the trekkers' dream of conquering the Himalayas into reality
-				</h1>
-				<p class="text-[2.5rem] font-extrabold text-gray-700">TRAVELLING PICTURE'S</p>
-			</div>
-			<!-- end heading  -->
+			<div class="md:mx-[6rem]">
+				<!-- heading  -->
+				<div class="mb-2">
+					<h1 class="font-extrabold text-gray-700 flex">
+						<svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M15.133 10.632v-1.8a5.406 5.406 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C4.867 13.018 3 13.614 3 14.807 3 15.4 3 16 3.538 16h12.924C17 16 17 15.4 17 14.807c0-1.193-1.867-1.789-1.867-4.175ZM4 4a1 1 0 0 1-.707-.293l-1-1a1 1 0 0 1 1.414-1.414l1 1A1 1 0 0 1 4 4ZM2 8H1a1 1 0 0 1 0-2h1a1 1 0 1 1 0 2Zm14-4a1 1 0 0 1-.707-1.707l1-1a1 1 0 1 1 1.414 1.414l-1 1A1 1 0 0 1 16 4Zm3 4h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM6.823 17a3.453 3.453 0 0 0 6.354 0H6.823Z"
+							/>
+						</svg>
+						Winning the hearts of many, these trips have graciously turned the trekkers' dream of conquering the Himalayas into reality
+					</h1>
+					<p class="text-[2.5rem] font-extrabold text-gray-700">TRAVELLING PICTURE'S</p>
+				</div>
+				<!-- end heading  -->
 
-			<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-				<div>
-					<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
-				</div>
-				<div>
-					<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
-				</div>
-				<div>
-					<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
-				</div>
-				<div>
-					<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
-				</div>
-				<div>
-					<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
-				</div>
-				<div>
-					<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
+				<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+					<div>
+						<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
+					</div>
+					<div>
+						<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
+					</div>
+					<div>
+						<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
+					</div>
+					<div>
+						<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
+					</div>
+					<div>
+						<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
+					</div>
+					<div>
+						<img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
+					</div>
 				</div>
 			</div>
 		</section>
